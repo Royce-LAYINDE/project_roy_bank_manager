@@ -1,0 +1,16 @@
+INSERT INTO clients (nom, prenom, genre, marie, dependants, education, auto_entrepreneur, zone_propriete, revenu_mensuel) VALUES
+('Kone', 'Aissatou', 'F', 'O', 2, 'N', 'O', 'Urban', 1200000),
+('Diouf', 'Mamadou', 'M', 'O', 3, 'O', 'N', 'Semiurban', 280000),
+('Toure', 'Fatoumata', 'F', 'N', 1, 'N', 'N', 'Rural', 70000),
+('Ndiaye', 'Ousmane', 'M', 'O', 4, 'O', 'O', 'Urban', 950000),
+('Sow', 'Aminata', 'F', 'N', 0, 'N', 'N', 'Semiurban', 160000),
+('Fofana', 'Ibrahime', 'M', 'N', 2, 'O', 'N', 'Rural', 65000),
+('Bamba', 'Mariama', 'F', 'O', 1, 'N', 'O', 'Urban', 900000),
+('Cisse', 'Abdoulaye', 'M', 'N', 3, 'N', 'O', 'Semiurban', 570000),
+('Sarr', 'Moussa', 'M', 'O', 2, 'N', 'O', 'Urban', 110000),
+('Ba', 'Ndeye', 'F', 'N', 0, 'O', 'N', 'Rural', 55000),
+('Diallo', 'Issa', 'M', 'O', 5, 'N', 'O', 'Urban', 1500000),
+('Tiana', 'Aissatou', 'F', 'N', 1, 'O', 'N', 'Semiurban', 75000),
+('Gaye', 'Abibatou', 'F', 'O', 2, 'N', 'O', 'Urban', 235000),
+('Thiam', 'Sidy', 'M', 'N', 1, 'O', 'N', 'Rural', 70000),
+('Kane', 'Yacine', 'F', 'O', 3, 'N', 'O', 'Semiurban', 90000);
