@@ -1,0 +1,34 @@
+version: '3.8'
+services:
+  flask-app:
+    build: .
+    container_name: flask-container
+    ports:
+      - "5000:5000"
+    environment:
+      FLASK_ENV: development
+      MYSQL_HOST: mysql-db
+      MYSQL_USER: royce
+      MYSQL_PASSWORD: Vempire61@
+      MYSQL_DATABASE: roy_bank
+    depends_on:
+      - mysql-db
+    volumes:
+      - .:/app
+
+  mysql-db:
+    image: mysql:8.0
+    container_name: mysql-container
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: roy_bank
+      MYSQL_USER: royce
+      MYSQL_PASSWORD: Vempire61@
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:

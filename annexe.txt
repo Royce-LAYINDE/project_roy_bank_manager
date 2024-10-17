@@ -1,0 +1,23 @@
+kde : kernel density estimation
+
+https://towardsdatascience.com/predict-loan-eligibility-using-machine-learning-models-7a14ef904057
+
+https://github.com/mridulrb/Predict-loan-eligibility-using-IBM-Watson-Studio
+
+https://www.analyticsvidhya.com/
+
+https://www.statology.org/label-encoding-vs-one-hot-encoding/
+
+https://www.practicalpythonfordatascience.com/ap_seaborn_palette
+
+https://cssgradient.io/
+
+https://www.scribbr.fr/methodologie/etat-de-lart/
+
+https://datascientest.com/machine-learning-tout-savoir
+
+https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-management.html 
+
+https://www.figcomponents.com/components/
+
+https://github.com/matthewbrems/ODSC-missing-data-may-18/blob/master/Analysis%20with%20Missing%20Data.pdf
