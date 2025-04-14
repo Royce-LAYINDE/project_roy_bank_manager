@@ -9,7 +9,7 @@ from sklearn.preprocessing import LabelEncoder
 
 
 app = Flask(__name__)
-app.secret_key = "roybank1234"
+app.secret_key = "CreateYourOwn"
 login_manager = LoginManager(app)
 
 # Définition de la classe User pour gérer les utilisateurs avec Flask-Login
@@ -26,8 +26,8 @@ def chargement_user(user_id):
 def connexion_db():
     return mysql.connector.connect(
         host=os.getenv('MYSQL_HOST', '127.0.0.1'),       
-        user=os.getenv('MYSQL_USER', 'royce'),  
-        password=os.getenv('MYSQL_PASSWORD', 'Vempire61@'),  
+        user=os.getenv('MYSQL_USER', 'YourUser'),  
+        password=os.getenv('MYSQL_PASSWORD', 'YourPassword'),  
         database=os.getenv('MYSQL_DATABASE', 'roy_bank')  
     )
 
